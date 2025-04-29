@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				eco: {
+					'leaf': '#4CAF50',
+					'moss': '#81C784',
+					'forest': '#2E7D32',
+					'earth': '#795548',
+					'sand': '#D7CCC8',
+					'water': '#64B5F6',
+					'sky': '#90CAF9'
 				}
 			},
 			borderRadius: {
@@ -84,11 +94,16 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'leaf-grow': {
+					'0%': { transform: 'scale(0.8)', opacity: '0.5' },
+					'100%': { transform: 'scale(1)', opacity: '1' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'leaf-grow': 'leaf-grow 0.6s ease-out'
 			}
 		}
 	},
