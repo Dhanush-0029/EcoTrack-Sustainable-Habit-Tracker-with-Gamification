@@ -1,19 +1,6 @@
-# Welcome to your Lovable project
+# Welcome to your EcoTrack – Sustainable Habit Tracker with Gamification
 
 ## Project info
-
-**URL**: https://lovable.dev/projects/28979591-b4ef-4435-abaa-c0d1d835ad53
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/28979591-b4ef-4435-abaa-c0d1d835ad53) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
 **Use your preferred IDE**
 
 If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
