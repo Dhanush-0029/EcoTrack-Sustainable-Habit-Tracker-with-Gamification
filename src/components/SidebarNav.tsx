@@ -18,7 +18,7 @@ type SidebarNavProps = {
 export function SidebarNav({ children }: SidebarNavProps) {
   return (
     <div className="grid grid-cols-[auto,1fr] min-h-screen w-full">
-      <Sidebar defaultCollapsed={false} className="border-r border-eco-sand">
+      <Sidebar className="border-r border-eco-sand">
         <SidebarHeader className="py-4 flex items-center justify-center">
           <span className="text-eco-forest font-semibold text-lg">Eco Quest</span>
         </SidebarHeader>
